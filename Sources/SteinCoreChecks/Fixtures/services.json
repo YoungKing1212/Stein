@@ -1,0 +1,23 @@
+[
+  {
+    "name": "colima",
+    "status": "none",
+    "user": null,
+    "file": "/opt/homebrew/opt/colima/homebrew.mxcl.colima.plist",
+    "exit_code": null
+  },
+  {
+    "name": "mysql",
+    "status": "stopped",
+    "user": "yangkai",
+    "file": "/Users/yangkai/Library/LaunchAgents/homebrew.mxcl.mysql.plist",
+    "exit_code": 0
+  },
+  {
+    "name": "redis",
+    "status": "started",
+    "user": "yangkai",
+    "file": "/Users/yangkai/Library/LaunchAgents/homebrew.mxcl.redis.plist",
+    "exit_code": null
+  }
+]

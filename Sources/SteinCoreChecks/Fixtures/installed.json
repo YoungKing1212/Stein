@@ -1,0 +1,69 @@
+{
+  "formulae": [
+    {
+      "name": "abseil",
+      "full_name": "abseil",
+      "tap": "homebrew/core",
+      "desc": "C++ Common Libraries",
+      "license": "Apache-2.0",
+      "homepage": "https://abseil.io",
+      "versions": { "stable": "20260107.1", "head": "HEAD", "bottle": true },
+      "revision": 0,
+      "keg_only": false,
+      "build_dependencies": ["cmake"],
+      "dependencies": ["cmake"],
+      "caveats": null,
+      "installed": [
+        {
+          "version": "20260107.1",
+          "used_options": [],
+          "built_as_bottle": true,
+          "poured_from_bottle": true,
+          "time": 1780474916,
+          "runtime_dependencies": [],
+          "installed_on_request": false
+        }
+      ],
+      "linked_keg": "20260107.1",
+      "pinned": false,
+      "outdated": false,
+      "deprecated": false,
+      "disabled": false
+    },
+    {
+      "name": "git",
+      "full_name": "git",
+      "tap": "homebrew/core",
+      "desc": "Distributed revision control system",
+      "license": "GPL-2.0-only",
+      "homepage": "https://git-scm.com",
+      "versions": { "stable": "2.55.0", "head": "HEAD", "bottle": true },
+      "revision": 1,
+      "keg_only": false,
+      "dependencies": ["gettext", "pcre2"],
+      "caveats": "Git comes with a shell completion script.",
+      "installed": [
+        { "version": "2.52.0_1", "used_options": [], "built_as_bottle": true, "poured_from_bottle": true, "time": 1770000000, "runtime_dependencies": [], "installed_on_request": true }
+      ],
+      "linked_keg": "2.52.0_1",
+      "pinned": false,
+      "outdated": true,
+      "deprecated": false,
+      "disabled": false
+    }
+  ],
+  "casks": [
+    {
+      "token": "android-platform-tools",
+      "full_token": "android-platform-tools",
+      "tap": "homebrew/cask",
+      "name": ["Android SDK Platform-Tools"],
+      "desc": "Android SDK component",
+      "homepage": "https://developer.android.com/tools/releases/platform-tools",
+      "version": "37.0.1",
+      "installed": "37.0.0",
+      "outdated": true,
+      "deprecated": false
+    }
+  ]
+}
