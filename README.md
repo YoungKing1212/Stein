@@ -10,6 +10,8 @@ A native macOS GUI for [Homebrew](https://brew.sh), built with SwiftUI.
 
 ![Icon](Resources/AppIcon.iconset/icon_256x256.png)
 
+![Screenshot](docs/screenshot.png)
+
 ## Features
 
 - **Installed** — browse installed formulae & casks, with versions, descriptions, outdated badges, and a detail inspector
